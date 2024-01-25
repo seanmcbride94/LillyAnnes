@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(232, 113, 133, 0.1)
+}
+
+.navbar {
+    background-color: #E87185;
+    color: white;
+    font-size: 25px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.padded-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(232, 113, 133, 0.7); /* Adjust the background color and opacity as needed */
+    text-align: right;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: #F4CFE4;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #F4CFE4;
+
+}
+
+.navbar-toggler:hover {
+    background-color: #F4CFE4;
+}
+
+.secondary-colour {
+    background-color: #E87185;
+}
+
+.secondary-text-colour {
+    color: #E87185;
+}
+
+.homepage-button {
+    height: 100px;
+    width: 200px;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+hr {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.card {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.card:hover {
+    background-color: #F4CFE4;
+    color: #E87185;
+}
+
+.form-label {
+    color: whitesmoke;
+}
+
+.menu-btn {
+    color: whitesmoke;
+}
+
+.menu-btn:hover {
+    color: #F4CFE4;
+}
