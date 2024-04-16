@@ -19,11 +19,7 @@
             flex: 1;
         }
 
-        .footer {
-            background-color: #E87185;
-            padding: 20px;
-            margin-top: auto;
-        }
+        
     </style>
 </head>
 <body>
@@ -34,7 +30,7 @@
             aria-labelledby="navbarOffcanvasLabel" style="background-color: #E87185;">
             <div class="offcanvas-header">
                 <!-- <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5> -->
-                <img src="https://seanmcbride94.github.io/LillyAnnes/images/lillyannes pink copy.png" alt="logo"
+                <img src="/images/lillyannes pink copy.png" alt="logo"
                     style="height: 80px;" />
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
@@ -43,23 +39,23 @@
                 <!-- Navbar links -->
                 <ul class="navbar-nav">
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/index.html">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/about.html">About</a>
+                        <a class="nav-link" href="/about.html">About</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/menu.html">Menu</a>
+                        <a class="nav-link" href="/menu.html">Menu</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/friend.html">Become Our Friend</a>
+                        <a class="nav-link" href="/friend.html">Become Our Friend</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/location.html">Find Us</a>
+                        <a class="nav-link" href="/location.html">Find Us</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
@@ -71,19 +67,15 @@
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/events.html">Events</a>
+                        <a class="nav-link" href="/events.html">Events</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://giveavoucher.co.uk/tullymill">Vouchers</a>
+                        <a class="nav-link" href="/jobs.html">Join Our Team</a>
                     </li>
                     <hr>
                     <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/jobs.html">Join Our Team</a>
-                    </li>
-                    <hr>
-                    <li class="nav-item pt-2">
-                        <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/contact.html">Contact Us</a>
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
                     </li>
                     <hr>
                 </ul>
@@ -92,40 +84,52 @@
 
         
     <!-- Navbar -->
-    <div class="row secondary-colour">
-        <div class="col-md-3 align-items-center d-flex flex-column p-4">
-            <a href="https://seanmcbride94.github.io/LillyAnnes/index.html"><img src="https://seanmcbride94.github.io/LillyAnnes/images/lillyannes pink copy.png" alt="logo" style="height: 90px;"/></a>
-        </div>
-        <div class="col-md-3">
-            <div class="text-center main-colour p-5  rounded-0" style="font-size: 30px;">
-                <a class="nav-link bordered-link" href="https://seanmcbride94.github.io/LillyAnnes/events.html">OUTSIDE CATERING</a>
+<div class="row secondary-colour page-nav">
+    <div class="col-md-3 align-items-center d-flex flex-column p-2">
+        <a href="/index.html"><img src="/images/extracopy.png" alt="logo" style="height: 60px;"/></a>
+    </div>
+    <div class="col-md-2"></div> <!-- Add a blank column to center the content -->
+            <div class="col-md-7">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="text-center main-colour pt-4 pb-4 rounded-0" style="font-size: 22px;">
+                    <a class="nav-link bordered-link" href="/events.html">OUTDOOR CATERING</a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="text-center main-colour p-5  rounded-0" style="font-size: 30px;">
-                <a class="nav-link" href="https://seanmcbride94.github.io/LillyAnnes/contact.html">CONTACT US</a>
+            <div class="col-md-4">
+                <div class="text-center main-colour pt-4 pb-4 rounded-0" style="font-size: 22px;">
+                    <!-- Dropdown container -->
+                    <div class="dropdown">
+                        <a class="nav-link bordered-link" href="#" id="locationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">LOCATIONS</a>
+                        <!-- Dropdown items -->
+                        <ul class="dropdown-menu" aria-labelledby="locationsDropdown">
+                            <li><a class="dropdown-item" href="/florencecourt.html">FLORENCECOURT TEAROOM</a></li>
+                            <li><a class="dropdown-item" href="/marble.html">MARBLE ARCH CAVES CAFE</a></li>
+                            <!-- Add more dropdown items as needed -->
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="text-center main-colour p-5  rounded-0">
-            <div class="menu-btn nav-link" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
-                
-                <span class="material-symbols-outlined" style="font-size: 45px;">
-                    menu
-                    </span>
-            </div>
+            <div class="col-md-2 mt-3">
+                <div class="text-center main-colour pb-2 rounded-0">
+                    <div class="menu-btn nav-link toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                        
+                        <span class="material-symbols-outlined" style="font-size: 45px;">menu</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+</div>
 </header>
 <!--End of navbar-->
 
-      <img src="https://seanmcbride94.github.io/LillyAnnes/images/png-2.png" class="img-fluid image"
-            alt="burgers" /> 
+      <img src="/images/events2.jpg" class="img-fluid image"
+            alt="Burger on the Grill" /> 
 
-            <h1 class="secondary-text-colour text-center mt-5 mb-5">EVENT CATERING</h1>
+            <h1 class="secondary-text-colour text-center mt-5 mb-5">OUTDOOR CATERING</h1>
 
       <div class="container mt-1 mb-3">
         <div class="row">
@@ -212,46 +216,46 @@
         <div class="row">
             <div class="collapse" id="collapseExample">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/prestige.png" class="img-fluid image" alt="BBQ Prestige" />
+                    <img src="/images/prestige.png" class="img-fluid image" alt="BBQ Prestige" />
                 </div>
             </div>
             <div class="collapse" id="collapseExample2">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/deluxe.png" class="img-fluid image" alt="BBQ Deluxe" />
+                    <img src="/images/deluxe.png" class="img-fluid image" alt="BBQ Deluxe" />
                 </div>
             </div>
             <div class="collapse" id="collapseExample3">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/casual.png" class="img-fluid image" alt="Casual Dinning" />
+                    <img src="/images/casual.png" class="img-fluid image" alt="Casual Dinning" />
                 </div>
             </div>
         </div>
             <div class="row">
             <div class="collapse" id="collapseExample4">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/canapes.png" class="img-fluid image" alt="Canapes" />
+                    <img src="/images/canapes.png" class="img-fluid image" alt="Canapes" />
                 </div>
             </div>
             <div class="collapse" id="collapseExample5">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/platters.png" class="img-fluid image" alt="Platters & Small Bites" />
+                    <img src="/images/platters.png" class="img-fluid image" alt="Platters & Small Bites" />
                 </div>
             </div>
             <div class="collapse" id="collapseExample6">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/dessert.png" class="img-fluid image" alt="Desserts" />
+                    <img src="/images/dessert.png" class="img-fluid image" alt="Desserts" />
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="collapse" id="collapseExample7">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/breakfastl.png" class="img-fluid image" alt="Breakfast Large" />
+                    <img src="/images/breakfastl.png" class="img-fluid image" alt="Breakfast Large" />
                 </div>
             </div>
             <div class="collapse" id="collapseExample8">
                 <div class="card-body mb-4">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/breakfasts.png" class="img-fluid image" alt="Breakfast Small" />
+                    <img src="/images/breakfasts.png" class="img-fluid image" alt="Breakfast Small" />
                 </div>
             </div>
         </div>
@@ -259,7 +263,7 @@
 
     <div class="container mt-5 mb-5 p-5" style="background-color: #F4CFE4;">
         <h2 class="secondary-text-colour">GET IN CONTACT</h2>
-        <form action="#" method="post">
+        <form action="https://getform.io/f/1aMRYBbW" method="post">
             <div class="row">
                     <div class="mb-3">
                         <label for="firstName" class="form-label">Name*</label>
@@ -298,13 +302,15 @@
             </div>
             
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="/friend.html" class="text-decoration-none">
-                        <div class="card text-center secondary-colour p-2 border border-light rounded-0">
-                            <span class="material-symbols-outlined">
-                                mail
-                            </span> SEND ENQUIRY
-                        </div>
-                    </a>
+                    <!-- <button type="submit" class="text-decoration-none"> -->
+        <button type="submit"
+        class="card text-center secondary-colour p-2 border border-light rounded-0 align-items-center">
+
+        <span class="material-symbols-outlined">
+          mail
+        </span> SEND ENQUIRY
+      </button>
+      <!-- </button> -->
                 </div>
         </form>
     </div>
@@ -313,21 +319,15 @@
         <div class="row">
             <div class="col-lg-6 mx-auto pt-5">
 
-                <h3 style="color: grey;">Private / Event Catering</h3>
-            <hr style="color: grey;">
-            <p class="black">For your most cherished family gatherings and significant celebrations, we extend Fermanagh's finest hospitality at our restaurant. 
-                Our mission is to craft an experience tailored uniquely to you, leaving an indelible memory for you and your loved ones.</p>
-            <p class="black">Whether it's a grand gala, a spirited sporting event, a laid-back barbecue, an elegant VIP reception, a milestone celebration, 
-                or a joyous christening, we possess the expertise to cater to every occasion. Choose from our exquisite dinner menu or allow us to curate a 
-                menu that perfectly matches your preferences.</p>
-            <p class="black">If you prefer the comfort of your own home, we're delighted to bring the same delectable cuisine to you, ensuring your 
-                family gathering is an absolute delight. Let us handle all your catering needs, allowing you to fully immerse yourself in your 
-                special moments.</p>
-            <p class="black">Alternatively, you may opt to host your private function at the Largeness Center, conveniently located across from 
-                Tully Mill Restaurant. Here, we offer a buffet-style menu, guaranteeing exclusive use of the venue for your event.</p>
+                <h3 class="secondary-text-colour">Outdoor Catering</h3>
+            <hr class="secondary-text-colour">
+            <p class="black">For your most important family occasions and celebrations we offer the best of Fermanagh's hospitality in our restaurant. 
+                Our aim is to offer an experience unique to you and create a memory that will stay with you and those who celebrate with you.</p>
+            <p class="black">From conferences to sporting events, BBQ’s to VIP receptions, special occasion parties, or christenings, we have the experience 
+                to cater for any and every event. Our casual dining menu is available for you or we are happy to create a menu to suit you and your parties taste.</p>
             </div>
-            <div class="col-lg-6 mx-auto">
-                <img src="https://seanmcbride94.github.io/LillyAnnes/images/Lilly_Annes BBQ.jpg" class="mb-5 p-5" alt="tapas" style="height: 400px;" />
+            <div class="col text-center pt-4">
+                <img src="/images/minidessertsfc.jpg" class="mb-5 p-5" alt="Sweet Treats" style="height: 600px;" />
             </div>
         </div>
     </div>
@@ -340,7 +340,7 @@
             <!-- Section 1 start -->
             <div class="col-12 col-md-3 mt-4">
                 <div class="d-flex flex-column align-items-center">
-                    <img src="https://seanmcbride94.github.io/LillyAnnes/images/lillyannes pink copy.png" alt="logo" style="height: 80px; width: auto; max-width: 100%;" />
+                    <img src="/images/extracopy.png" alt="logo" style="height: 80px; width: auto; max-width: 100%;" />
                     <p class="mt-3 text-center">© 2024 Company, Inc. All rights reserved.</p>
                 </div>
             </div>
@@ -367,7 +367,7 @@
             <div class="col-12 col-md-3 mb-4 mt-3">
                 <div class="d-flex flex-column align-items-center">
                     <a href="https://seanmcbride94.github.io/tullymillcottages/index.html"><img src="https://seanmcbride94.github.io/tullymillcottages/images/TullyMillCottagesLogo.png" alt="Image 1" style="height: 80px; width: auto; max-width: 100%; margin-bottom: 10px;"></a>
-                    <a href="https://seanmcbride94.github.io/tullymill2/index.html"><img src="https://seanmcbride94.github.io/LillyAnnes/images/Logo-01-01.png" alt="Image 2" style="height: 90px; width: auto; max-width: 100%;"></a>
+                    <a href="https://seanmcbride94.github.io/tullymill2/index.html"><img src="/images/Logo-01-01.png" alt="Image 2" style="height: 75px; width: auto; max-width: 100%;"></a>
                 </div>
             </div>
             <!--Section 3 End-->
@@ -381,6 +381,10 @@
                     <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/LillyAnnesCaterers"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style="color: azure;">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                     </svg></a></li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-center justify-content-md-end">
+                    <li class="ms-3"><img src="images/foodhygienerating.png" alt="" style="height: 100px;"/></li>
+                    
                 </ul>
             </div>
             <!-- Section 4 End -->
